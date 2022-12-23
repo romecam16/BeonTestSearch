@@ -1,0 +1,27 @@
+{
+  "name": "beontestsearch",
+  "version": "1.0.0",
+  "description": "search using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romecam16/BeonTestSearch.git"
+  },
+  "author": "Camilo Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romecam16/BeonTestSearch/issues"
+  },
+  "homepage": "https://github.com/romecam16/BeonTestSearch#readme",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^9.2.0",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1"
+  }
+}
